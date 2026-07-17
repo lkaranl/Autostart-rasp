@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Firefox Kiosk
+Exec=sh -c "sleep 10 && firefox --kiosk http://192.168.68.51:8090/"
+Terminal=false
+X-GNOME-Autostart-enabled=true
